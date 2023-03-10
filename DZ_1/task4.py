@@ -8,8 +8,11 @@
 # 60 -> 10 40 10
 
 num = int(input("Введите количество журавликов: "))
-kate = int((num/3)*2)
-petr = int((kate/2)/2)
-sergei = int(petr)
-print(petr, kate, sergei)
+if  num % 2 == 0 and num % 3 == 0:
+    kate = int((num/3)*2)
+    petr = int((kate/2)/2)
+    sergei = int(petr)
+    print(petr, kate, sergei)
+else:
+    print("Введите количество журавликов кратное 6!")
 
