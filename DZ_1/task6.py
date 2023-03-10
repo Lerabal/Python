@@ -6,3 +6,19 @@
 # программу, которая проверяет счастливость билета
 # 385916 -> yes
 # 123456 -> no
+
+# num = int(input("Введите шестизначное число: "))
+# a = num % 1000//100 + num % 100//10 + num % 10
+# b = num % 10000//1000 + num % 100000//10000 + num % 1000000//100000
+# if a == b:
+#     print("YES")
+# else:
+#     print("NO")
+
+num = input("Введите шестизначное число: ")
+a = int(num[0]) + int(num[1]) + int(num[2])
+b = int(num[3]) + int(num[4]) + int(num[5])
+if a == b:
+    print("YES")
+else:
+    print("NO")
