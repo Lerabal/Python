@@ -6,3 +6,10 @@
 # 6 -> 1 4 1
 # 24 -> 4 16 4
 # 60 -> 10 40 10
+
+num = int(input("Введите количество журавликов: "))
+kate = int((num/3)*2)
+petr = int((kate/2)/2)
+sergei = int(petr)
+print(petr, kate, sergei)
+
