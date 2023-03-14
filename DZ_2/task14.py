@@ -8,3 +8,9 @@ n = 1
 while n < num:
     print(n, end=' ')
     n = n * 2
+
+# n = int(input("Введите число: "))
+# i = 0
+# while 2**i <= n:
+#     print(2**i)
+#     i += 1
