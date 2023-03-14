@@ -5,3 +5,9 @@
 # произведение P. Помогите Кате отгадать задуманные Петей числа.
 # 4 4 -> 2 2
 # 5 6 -> 2 3
+
+summa = int(input("Введите число 1: "))
+proizved = int(input("Введите число 2: "))
+x = (summa-int((summa**2-4*proizved)**0.5))//2
+y = (summa+int((summa**2-4*proizved)**0.5))//2
+print(x, y)
