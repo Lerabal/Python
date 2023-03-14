@@ -5,3 +5,20 @@
 # количество монет, которые нужно перевернуть.
 # 5 -> 1 0 1 1 0
 # 2
+
+n = int(input("Введите число: "))
+count_1 = 0
+count_0 = 0
+maximum = 0
+for i in range(1, n+1):
+    temp = int(input("Введите 1 или 0: "))
+    if temp == 0:
+        count_0 += 1
+        maximum = count_0
+    elif temp == 1:
+        count_1 += 1
+        maximum = count_1
+if count_1 > count_0:
+    print(count_0)
+else:
+    print(count_1)
