@@ -15,6 +15,6 @@
 # print(len(set(list_1)))
 
 from random import randint
-list_1=[randint(1,10) for _ in range(int(input("Введите количество элементов")))]
+list_1=[randint(1,10) for _ in range(int(input("Введите количество элементов")))] # randint(1,10)= i     _ = i не используется i внутри цикла пишут нижнее подчеркивание
 print(list_1)
 print(len(set(list_1))) 
