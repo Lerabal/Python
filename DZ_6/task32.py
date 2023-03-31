@@ -37,3 +37,27 @@ max_1 = int(input("Введите диапазон до (max) "))
 indexes = [i for i, v in enumerate(array1) if min_1 <= v <= max_1]
 print (f"Индексы чисел лежащих в диапазоне от {min_1} до {max_1} = {indexes}")
 
+# from random import randint
+
+
+# def CheckValue(myArray, minI, maxI):
+# return [i for i, elem in enumerate(myArray) if minI <= elem <= maxI]
+# # # newList= []
+# # for i, elem in enumerate(myArray):
+# # if minI<=elem<=maxI:
+# # newList.append(i)
+# # print (f"Element index is ",i)
+# # # return newList
+
+
+# arrLen = int(input("Input array length "))
+# myArr = [randint(0, 10) for _ in range(arrLen)]
+# # for j in range (arrLen):
+# # myArr.append(randint(0,10))
+
+# print(*myArr)
+# print()
+# minValue = int(input("Input the minimum value "))
+# maxValue = int(input("Input the maximum value "))
+
+# print(CheckValue(myArr, minValue, maxValue))
